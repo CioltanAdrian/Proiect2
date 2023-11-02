@@ -1,0 +1,91 @@
+/*
+#579286 - verde
+#7e3f98 - mov
+*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: "Calibri";
+}
+
+a,
+a:visited {
+    color: #7e3f98;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    text-align:center;
+    text-transform: uppercase;
+    color: #7e3f98;
+    font-weight: 100;
+}
+
+.ul{
+    display: flex;
+    list-style-type: none;
+	background-position:0px 5px; 
+    padding-left: 10px;
+    margin-left: 530px;
+    padding:0px;
+    margin-bottom: 0px;
+}
+
+.Home{
+
+}
+
+.Courses{
+    border-left: 1px solid;
+    height: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+
+
+}
+
+.Contact{
+    border-left: 1px solid;
+    height: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+img {
+    width: 310px;
+    height: 310px;
+}
+
+.ul-img{
+    display: flex;
+    list-style-type: none;
+    margin-left: -40px;
+    color: #579286;
+}
+
+.img2{
+    padding-left: 10px;
+}
+
+.img3{
+    padding-left: 10px;
+}
